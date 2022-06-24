@@ -1,0 +1,773 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size:10px;
+    
+}
+#header
+{
+   height: 99vh;
+   width: 98.0vw;
+   overflow: auto;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ /*  border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+   /*background-color: aqua;*/
+    padding-top: 2.50rem;
+     
+    padding-left: 5.5rem ;
+    height: 25vh;
+    width: 90.6vw;
+ /* border: 1px solid red;*/
+    
+}
+
+.logo
+{
+    height: 6rem ;
+    
+}
+.header-text
+{
+  
+    padding-left: 5.5rem ;
+  /* background-color: chartreuse;*/
+ /*border: 1px solid blue ;*/
+     height:70vh; 
+     width: 92.6vw;   
+    
+}
+.header-text h1
+{
+    font-size: 2.6rem;
+ /*  border: 1px solid black ;*/
+    height: 15vh;
+    width: 92.6vw;
+    
+ /* background-color: yellow;*/
+   
+}
+.box
+{
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #f67c92;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+.header-text p
+{
+    font-size: 1.40rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    color: gray;
+ /*  background-color: orange  ;*/
+ /*  border: 1px solid black  ;*/
+    
+}
+.commonbtn
+{
+    border: 0.2rem solid #f67c92;
+    height: 4.5rem;
+    width: 13.5rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.box2
+{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #f67c92;
+    margin-top: 3.9rem;
+    margin-bottom: 1.0rem;
+}
+.line1
+
+{
+    height: .1rem;
+    width:9rem;
+    background-color: #f67c92;
+
+}
+.line2
+
+{
+    height: .1rem;
+    width:6rem;
+    background-color: #f67c92;
+    margin-top: 0.7rem;
+    margin-bottom: 0.1rem;
+
+}
+/*SIDENAV*/
+#sidenav
+{
+    height: 99vh;
+    width: 30vw;
+    background-color: #f67c92;
+    position: fixed;
+    right: -30vw;
+    top: 0;
+    z-index: 2;
+   /* border: 1px solid blue ;*/
+    transition: 0.5s;
+   
+    
+}
+#sidenav ul
+{
+    list-style-type: none;
+  /*  background-color: aqua;*/
+   
+    
+
+   
+}
+#sidenav ul li
+{
+    /*border: 1px solid black ;*/
+    padding-left: 5vw;
+    margin-top: 9vh;
+    
+    
+    
+    
+    
+}
+
+#sidenav ul li a
+{
+    text-decoration: none;
+   /* background-color: bisque;*/
+    font-size: 1.8rem;
+    color: white;
+
+}
+#menubtn
+{
+    background-color: white;
+    height: 4.5rem;
+    width: 3.5rem;
+    position: fixed;
+    top: 4vh;
+    right: 7vw;
+    z-index: 3  ;
+    cursor: pointer;
+}
+
+
+/*aboutus*/
+#aboutus
+{
+    height: 95vh;
+    width: 97.8vw;
+   /* background-color: aqua;*/
+/*  border: 2px solid black ;*/
+    overflow:auto;
+    display:flex;
+    flex-direction: row;
+    
+   
+   
+
+}
+.left-col
+{
+    flex-basis: 50%;
+ /* border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-col img
+
+{
+    height: 99.0%;
+    width: 99%;
+  /*border: 1px solid black ;*/
+}
+.right-col
+{
+    flex-basis: 50%;
+  /* border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.abouttext
+{
+    height: 99.0%;
+    width: 99%;
+  /* background-color: blueviolet;*/
+  /*border: 1px solid green;*/
+    display: flex;
+    flex-direction: column;
+   /* text-align: right;*/
+  
+    padding-right:5rem;
+   
+
+
+
+    
+    
+}
+.abouttext p
+{
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    font-weight: lighter;
+    color: gray;
+ /*  background-color: orange  ;*/
+ /*border: 1px solid black  ;*/
+ text-align: right;
+ padding-top: 1vh;
+ padding-bottom: 2vh;
+   
+   
+    
+}
+.abouttext h1
+{
+    font-size: 3.5rem;
+ /* border: 1px solid black ;*/
+    text-align: right;
+  
+    margin-top:9.5rem;
+
+    
+    
+ /* background-color: yellow;*/
+   
+}
+.aa1
+{
+/* border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.aa2
+{
+  /* border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+    align-items:flex-end;
+}
+.aboutbox
+{
+    height: 0.9rem;
+    width: 0.9rem;
+    background-color: #f67c92;
+    margin-top: 1.1rem;
+   margin-bottom: 1.1rem;
+ /* margin-left:43rem;*/
+   /*position: absolute;*/
+  /* border: 1px solid black ;*/
+   
+
+
+  
+}
+.aboutbox2
+{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #f67c92;
+    margin-top: 3.9rem;
+    margin-bottom: 1.0rem;
+   /* margin-left:43rem;*/
+   /* border: 1px solid black ;*/
+    
+    
+}
+.aboutline1
+
+{
+    height: .1rem;
+    width:9rem;
+    background-color: #f67c92;
+/*    margin-left:35.1rem;*/
+    
+
+}
+.aboutline2
+
+{
+    height: .1rem;
+    width:6rem;
+    background-color: #f67c92;
+    margin-top: 0.7rem;
+    margin-bottom: 3.1rem;
+ /*   margin-left:38.1rem;*/
+   
+
+}
+.abouttext h2
+{
+    font-size:2.3rem;
+    text-decoration:italic;
+    margin-bottom:1rem;
+/*  border: 1px solid black ;*/
+    text-align: right;
+}
+.abouttext h4
+{
+    font-size:2.0rem;
+    color: gray;
+  /*  border: 1px solid black ;*/
+    text-align: right;
+}
+
+
+
+
+
+/*FEATURE*/
+
+
+
+#feature
+
+{
+ /* border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    margin-top:4vh;
+    margin-bottom:4vh;
+}
+.feature-row
+{
+    width:80%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+  /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.feature-col
+{
+  
+  flex-basis: 25%;
+ /*  border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature-col img
+{
+    width: 9rem;
+}
+.feature-col h3
+{
+    font-size:1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.feature-col p
+{
+    font-size:1.4rem;
+    text-align: center;
+    font-weight:400;
+    color: gray;
+}
+.feature-row2
+{
+ /*border: 1px solid black ;*/
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.feature-row2 .aa2
+{
+    margin-right: 1rem;
+    border: none;
+}
+.feature-row2 .commonbtn
+{
+    margin-left: 1rem;
+}
+
+
+
+
+/*COURSES*/
+
+
+#courses
+{
+  /* border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.container-course
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  /*  border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+}
+.course-left-col
+{
+    flex-basis: 50%;
+  /*border: 1px solid green;*/
+}
+.course-left-col h1
+{
+    font-size:2.6rem;
+    margin-top: 5.2rem;
+}
+.course-left-col p
+{
+    font-size: 1.40rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.course-right-col
+{
+    flex-basis: 50%;
+  /* border: 1px solid purple;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 2rem;
+}
+.course-right-col img
+{
+    height: 35rem;
+    width: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+/*OFFERS*/
+
+
+#offer
+{
+  /*  border: 1px solid black ;*/
+    
+
+   
+   
+    overflow:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+   
+
+
+}
+.offer-left-col
+{
+    flex-basis: 50%;
+  /*  border: 1px solid red;*/
+    
+}
+.offer-left-col img
+
+{
+    height: 49rem;
+    width: 49rem;
+    
+  
+}
+.offer-right-col
+{
+    flex-basis: 50%;
+   /*border: 1px solid blue;*/
+}
+.offertext
+{
+    
+  
+ /* border: 1px solid green;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 4rem;
+  
+  
+   
+}
+.offertext h1
+{
+    font-size: 3.5rem;
+ /* border: 1px solid black ;*/
+    text-align: right;
+  
+    margin-top:9.5rem;
+
+    
+    
+ /* background-color: yellow;*/
+   
+}
+.offertext p
+{
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    font-weight: lighter;
+    color: gray;
+ /*  background-color: orange  ;*/
+ /*border: 1px solid black  ;*/
+ text-align: right;
+ padding-top: 1vh;
+ padding-bottom: 2vh;
+   
+   
+    
+}
+
+
+
+
+/*contact us*/
+
+#contact
+{
+ /*border: 1px solid black ;*/
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+    
+
+   
+   
+    overflow:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+   
+
+
+}
+.contact-left-col
+{
+    flex-basis: 50%;
+    padding-left: 5.5rem;
+  
+    
+}
+.contact-left-col h1
+{
+    font-size: 3.2rem;
+    /* border: 1px solid black ;*/
+       text-align: left;
+       margin-bottom: 1.5rem;
+     
+       /*margin-top:9.5rem; */
+}
+form
+{
+   /* border: 1px solid black ;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:space-between;
+}
+input
+{
+    margin-top: 1rem;
+    display: inline-block;
+    height: 2.8rem;
+    width: 56.5%;
+    border: 1px solid #f67c92 ;
+    box-shadow: none;
+    outline: none;
+    border-radius: 4px;
+    
+}
+
+.contact-right-col img
+
+{
+    height: 45rem;
+    width: 40rem;
+    
+  
+}
+.contact-right-col
+{
+    flex-basis: 50%;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+/*FOOTER SECTION*/
+
+#footer
+{
+ /*border: 1px solid black ;*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+hr
+{
+    /*height: 0.2rem; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem; 
+    border-top: 1px solid #f67c92 ;  
+}
+.footer-row
+{
+ /* border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer-left-col
+{
+ /*border: 1px solid yellow;*/
+   flex-basis: 60%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 5rem;
+   flex-wrap: wrap;
+}
+.footer-text h2
+{
+    color:#f67c92;
+    margin-bottom: 2rem;
+}
+.footer-text small
+{
+    color: gray;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+.footer-right-col
+{
+ /*border: 1px solid purple;*/
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.footer-right-col-col1
+{
+ /* border: 1px solid brown;*/
+   flex-basis: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-end;
+}
+.footer-right-col-col2
+{
+/* border: 1px solid green;*/
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+.footer-right-col-col1 small
+{
+    
+    font-size: 1.4rem;
+   font-weight: lighter;
+   margin-right: 2rem;
+   
+   
+}
+.footer-right-col-col2 img
+{
+    height: 5rem;
+    width: 10rem;
+}
+/*SOCIAL-ICONS*/
+#social-icons
+{
+   /* border: 1px solid black;*/
+   /* background-color: greenyellow;*/
+    z-index: 1;
+    height: 99.5vh;
+    width: 2vw;
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0.5rem;
+    justify-content: center;
+    align-items: space-evenly;
+}
+#social-icons img
+{
+   /* margin-top:2.5rem ;*/
+    margin-bottom:6.5rem;
+    cursor: pointer;
+    transform: translatey(50%);
+}
+
+
+
+
+
+}
